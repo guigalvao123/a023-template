@@ -2,3 +2,52 @@
     margin: 0;
     padding: 0;
 }
+
+header{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    height: 5vh;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    background-color: orangered;
+    flex-grow: 1;
+    display: flex;
+}
+
+.conteudo-principal{
+    display: flex;
+}
+
+.cresce{
+    flex-grow: 2;
+}
+
+.nao-cresce{
+    flex: 1;
+}
+
+article{
+    border: 1px solid black
+}
+
+footer{
+    background-color: goldenrod;
+    border: 5px solid red;
+    height: 5vh;
+}
+
+.imagem{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px
+}
